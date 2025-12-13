@@ -26,6 +26,6 @@ if (!in_array($page, $podstrony)) { // sprawdza czy pobrane page jest w tablicy 
         
 
     </nav>
-    <?php include __DIR__ . "/../pages/$page.php" ?> <!-- include - laduje podstrone, __dir__ katalog pliku, czyli /pages/{podstrona}.php zmienna podstrona zmieniajac sie zmienia sciezke, odpalajac tym samym podstrone ktora chcemy-->
+    <?php include __DIR__ . "/page/$page.php" ?> <!-- include - laduje podstrone, __dir__ katalog pliku, czyli /pages/{podstrona}.php zmienna podstrona zmieniajac sie zmienia sciezke, odpalajac tym samym podstrone ktora chcemy-->
 </body>
 </html>
